@@ -64,11 +64,6 @@ namespace Cadastro_Oficial
                 this.cadastroTableAdapter.Fill(this.endereçosDataSet.Cadastro);
 
             }
-
-            /*else
-            {
-                //MessageBox.Show("Comando cancelado!", "Remover Linha", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            }*/
         }
 
 

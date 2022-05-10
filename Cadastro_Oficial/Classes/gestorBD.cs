@@ -53,7 +53,7 @@ namespace Cadastro_Oficial
             strConnection = "Server = " + main.servidor + "; Database = " + basedados + "; Trusted_Connection = true";
         }
 
-        //========================== Esse Método retorna uma valor, faz um Get na minha tabela ======================================
+        //========================= Esse Método retorna uma valor, faz um Get na minha tabela =======================================
         public DataTable EXE_READER(string strComando)
         {
             adaptador = new SqlDataAdapter(strComando, strConnection);

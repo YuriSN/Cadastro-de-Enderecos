@@ -103,8 +103,7 @@ namespace Cadastro_Oficial
 
                 MessageBox.Show("Dados atualizados com sucesso", "Aviso!");
 
-            }
-            
+            } 
         }
 
         private void cmdlimpar_Click(object sender, EventArgs e)
